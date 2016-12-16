@@ -8,7 +8,7 @@ attribute? We can use ```member``` action specifier as shown below:
 ```
 resources :books do
 	member do
-		patch :publish  # this will produce a route for books/:id/published (automatically routes to books#publish action)
+		patch :publish  # this will produce a route for books/:id/publish (automatically routes to books#publish action)
 		patch :unpublish  # this will produce a route for books/:id/unpublish (automatically routes to books#unpublish action)
 
 	end
