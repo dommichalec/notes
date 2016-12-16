@@ -12,3 +12,5 @@ This is because an index improves ```READ``` but slows down ```WRITE```.
 
 **We usually want to index the attributes that are queried most often and have
 the slowest load time**
+
+[add_index documentation](http://apidock.com/rails/ActiveRecord/ConnectionAdapters/SchemaStatements/add_index)
